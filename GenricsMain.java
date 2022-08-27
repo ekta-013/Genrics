@@ -3,12 +3,12 @@ package com.Bridgelabs;
 public class GenricsMain {
 
 	public static void main(String[] args) {
-		GenricsInt genInt = new GenricsInt();
+		GenricsFloat genFloat = new GenricsFloat();
 		System.out.println("TC1");
-		genInt.num(9, 7, 6);
+		genFloat.num(9F, 7F, 6.5F);
 		System.out.println("TC2");
-		genInt.num(7, 11, 6);
+		genFloat.num(7F, 11.5F, 6F);
 		System.out.println("TC3");
-		genInt.num(7, 6, 13);
+		genFloat.num(7F, 6F, 13F);
 	}
 }
